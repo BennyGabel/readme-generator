@@ -41,19 +41,29 @@ const questions = [{
                     {
                         type: 'input',
                         name: 'credits',
-                        message: 'Table of contents'
+                        message: 'Credits'
+                    },
+                    {
+                        type: 'checkbox',
+                        name: 'badges',
+                        message: 'What badges  does your project use?',
+                        choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
                     },
                     {
                         type: 'list',
                         name: 'license',
-                        message: 'What license does your project use?',
-                        choices: ['None', 'Apache 2.0', 'GNU AGPLv3', 'MIT', 'Mozilla Public 2.0']
-                    },
-                    {
-                        type: 'list',
-                        name: 'Badges',
-                        message: 'What badges  does your project use?',
-                        choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+                        message: 'What license does your project have?',
+                        choices: ['None', 'Apache License 2.0', 'GNU AGPLv3', 'MIT License', 'jMozilla Public License 2.0']
+
+/*
+      type: 'checkbox',
+      name: 'languages',
+      message: 'What did you build this project with? (Check all that apply)',
+      choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+
+*/
+
+
                     }
                     // {
                     //     type: 'input',
@@ -78,10 +88,11 @@ function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {
-    // console.log(questions);  PASSED
-    const promptQuestions = () => {
-        return inquirer.prompt(questions)
-    }
+    // // console.log(questions);  PASSED
+    // const promptQuestions = () => {
+    //     return inquirer.prompt(questions)
+    // }
+    inquirer.prompt(questions)
 
 }
 
