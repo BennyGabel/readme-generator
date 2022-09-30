@@ -54,34 +54,8 @@ const questions = [{
                         name: 'license',
                         message: 'What license does your project have?',
                         choices: ['None', 'Apache License 2.0', 'GNU AGPLv3', 'MIT License', 'jMozilla Public License 2.0']
-
-/*
-      type: 'checkbox',
-      name: 'languages',
-      message: 'What did you build this project with? (Check all that apply)',
-      choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
-
-*/
-
-
                     }
-                    // {
-                    //     type: 'input',
-                    //     name: 'Features',
-                    //     message: 'Please de features'
-                    // },
                    ];
-/*
-Project title        \| 
-Description          \| 
-Table of Contents        \| 
-Installation        \| 
-Usage        \| 
-Credits        \| 
-License
-Badges
-Features
-*/
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
