@@ -49,13 +49,33 @@ function renderLicenseSection(license) {
   }
 }
 
+function renderLanguagesBadges(language) {
+  switch (language) {
+    case 'Bootstrap':
+      return 'https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white';
+    case 'CSS':
+      return 'https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white';
+    case 'HTML':
+      return 'https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white';
+    case 'JavaScript':
+      return 'https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' ;
+    case 'jQuery':
+      return 'https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white';
+    case 'Node JS':
+      return 'https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white' ;
+    default:
+      return '';
+  }
+  
+}
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
   ## Description
-  `${data.description}`
-  `
+  ${data.description}
+  
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
@@ -66,6 +86,9 @@ ${data.installation}
 
 ### Usage   <h3>
 ${data.usage}
+
+### Languages Used
+renderLanguagesBadges
 
 ## License
 #### ${data.license}

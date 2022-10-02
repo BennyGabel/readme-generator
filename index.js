@@ -43,12 +43,12 @@ const questions = [{
                         name: 'credits',
                         message: 'Credits'
                     },
-                    // {
-                    //     type: 'checkbox',
-                    //     name: 'badges',
-                    //     message: 'What badges  does your project use?',
-                    //     choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
-                    // },
+                    {
+                        type: 'checkbox',
+                        name: 'languages',
+                        message: 'What badges  does your project use?',
+                        choices: ['Bootstrap', 'CSS', 'HTML', 'JavaScript', 'jQuery', 'Node JS']
+                    },
                     {
                         type: 'list',
                         name: 'license',
