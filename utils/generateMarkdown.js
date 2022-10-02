@@ -70,11 +70,11 @@ ${data.usage}
 
 ![](${data.usagePicture}?raw=true)
 
-
-![](/assets/screenshot/screenshot.jpg?raw=true)
-
 ## Credits
-${data.credits}
+Author: ${data.credits}
+Github Repository:  [![Github Repository](${data.githubrepo})
+Project URL: [![Application URL](${data.url})
+
 
 
 ## License  ${renderLicenseBadge(data.license)}

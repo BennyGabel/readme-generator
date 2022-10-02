@@ -39,7 +39,17 @@ const questions = [{
                     {
                         type: 'input',
                         name: 'credits',
-                        message: 'Credits'
+                        message: 'Credits/Author Name'
+                    },
+                    {
+                        type: 'input',
+                        name: 'githubrepo',
+                        message: 'Github Repo'
+                    },
+                    {
+                        type: 'input',
+                        name: 'url',
+                        message: 'URL'
                     },
                     {
                         type: 'list',
