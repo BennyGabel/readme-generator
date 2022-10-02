@@ -43,12 +43,12 @@ const questions = [{
                         name: 'credits',
                         message: 'Credits'
                     },
-                    {
-                        type: 'checkbox',
-                        name: 'badges',
-                        message: 'What badges  does your project use?',
-                        choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
-                    },
+                    // {
+                    //     type: 'checkbox',
+                    //     name: 'badges',
+                    //     message: 'What badges  does your project use?',
+                    //     choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+                    // },
                     {
                         type: 'list',
                         name: 'license',
@@ -63,10 +63,16 @@ function writeToFile(fileName, data) {}
 // TODO: Create a function to initialize app
 function init() {
     // // console.log(questions);  PASSED
-    // const promptQuestions = () => {
+
+    // promptQuestions in the portfolio-generator is a function, that is why needs to be returned
+    // const promptQuestions = () => {    
     //     return inquirer.prompt(questions)
     // }
+
+    /* .then(data=>{console.log("***",data) */
     inquirer.prompt(questions)
+        .then(data=>{console.log("***",data)
+        fs.writeFileSync('README.md',generatePage(data))    } )
 
 }
 
