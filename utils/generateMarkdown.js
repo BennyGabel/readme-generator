@@ -69,6 +69,11 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
+![](${data.usagePicture}?raw=true)
+
+
+![](/assets/screenshot/screenshot.jpg?raw=true)
+
 ## Credits
 ${data.credits}
 

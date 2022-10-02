@@ -35,6 +35,11 @@ const questions = [{
                     },
                     {
                         type: 'input',
+                        name: 'usagePicture',
+                        message: 'screenshot of how to use?'
+                    },
+                    {
+                        type: 'input',
                         name: 'credits',
                         message: 'Credits'
                     },
