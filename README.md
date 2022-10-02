@@ -1,7 +1,7 @@
-# README.md
+# readme-generator
 
 ## Description
-  README generator
+  Generate a README.md file
   
 ## Table of Contents
 - [Installation](#installation)
@@ -10,10 +10,12 @@
 - [License](#license)
 
 ## Installation
-look video
+npm install --save inquirer
 
 ## Usage
-node index.js
+node index.js     
+
+!(/src/img/Screenshot.JPG)
 
 ## Credits
 Benny Gabel
