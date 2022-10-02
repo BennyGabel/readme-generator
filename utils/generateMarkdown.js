@@ -72,15 +72,11 @@ ${data.usage}
 ${data.credits}
 
 
-## License
-#### ${data.license}
+## License  ${renderLicenseBadge(data.license)}
 Link ${renderLicenseLink(data.license)}
 
 #### License description
 ${renderLicenseSection(data.license)}
-
-#### License Badge
-${renderLicenseBadge(data.license)}
 
 
 ![Benny Gabel](/src/img/ProfilePicture.JPG?raw=true)
