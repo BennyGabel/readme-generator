@@ -50,7 +50,6 @@ function renderLicenseSection(license) {
   }  
 }
 
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
@@ -84,8 +83,6 @@ Link ${renderLicenseLink(data.license)}
 #### License description
 ${renderLicenseSection(data.license)}
 
-
-![Benny Gabel](/src/img/ProfilePicture.JPG?raw=true)
 `;
 }
 
