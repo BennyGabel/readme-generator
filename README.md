@@ -15,7 +15,7 @@ npm install --save inquirer
 ## Usage
 node index.js     
 
-!(/src/img/Screenshot.JPG)
+![](/assets/screenshot/screenshot.jpg?raw=true)
 
 ## Credits
 Benny Gabel
