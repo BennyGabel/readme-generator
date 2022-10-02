@@ -25,11 +25,6 @@ const questions = [{
                     },
                     {
                         type: 'input',
-                        name: 'contents',
-                        message: 'Table of contents'
-                    },
-                    {
-                        type: 'input',
                         name: 'installation',
                         message: 'How to install?'
                     },
@@ -42,12 +37,6 @@ const questions = [{
                         type: 'input',
                         name: 'credits',
                         message: 'Credits'
-                    },
-                    {
-                        type: 'checkbox',
-                        name: 'languages',
-                        message: 'What badges  does your project use?',
-                        choices: ['Bootstrap', 'CSS', 'HTML', 'JavaScript', 'jQuery', 'Node JS']
                     },
                     {
                         type: 'list',

@@ -46,49 +46,31 @@ function renderLicenseSection(license) {
       return 'Permissions of this weak copyleft license are conditioned on making available source code of licensed files and modifications of those files under the same license (or in certain cases, one of the GNU licenses). Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. However, a larger work using the licensed work may be distributed under different terms and without source code for files added in the larger work.'
     default:
       return '';
-  }
-}
-
-function renderLanguagesBadges(language) {
-  switch (language) {
-    case 'Bootstrap':
-      return 'https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white';
-    case 'CSS':
-      return 'https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white';
-    case 'HTML':
-      return 'https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white';
-    case 'JavaScript':
-      return 'https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' ;
-    case 'jQuery':
-      return 'https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white';
-    case 'Node JS':
-      return 'https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white' ;
-    default:
-      return '';
-  }
-  
+  }  
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ## Description
+## Description
   ${data.description}
   
+## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 
-## Installation <h2>
+## Installation
 ${data.installation}
 
-### Usage   <h3>
+## Usage
 ${data.usage}
 
-### Languages Used
-renderLanguagesBadges
+## Credits
+${data.credits}
+
 
 ## License
 #### ${data.license}
