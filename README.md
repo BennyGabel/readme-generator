@@ -7,13 +7,16 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
+- [Email](#email)
+- [Github](#github)
+- [Notes](#notes)
 - [License](#license)
 
 ## Installation
-1) Pre-requisits: Download Node JS. 2) Install inquirer: npm install --save inquirer
+1) Pre-requisits: Download Node JS. 2) install inquirer: npm install --save inquirer
 
 ## Usage
-nodei index.js
+node index.js
 
 ![](/assets/screenshot/screenshot.jpg?raw=true)
 
@@ -21,11 +24,17 @@ nodei index.js
 
 Author: Benny Gabel
 
-Github Repository:  (https://github.com/BennyGabel/readme-generator)
+## Email: 
+bennygabel@gmail.com
 
-Project URL: (https://github.com/BennyGabel/readme-generator)
+## Github
 
+Github Repository:  (https://github.com/BennyGabel)
 
+Project URL: (https://github.com/BennyGabel)
+
+## Notes: 
+(run it from 'feature/additions' branch)
 
 ## License  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 Link https://choosealicense.com/licenses/mit/
