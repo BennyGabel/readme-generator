@@ -74,9 +74,9 @@ ${data.usage}
 
 Author: ${data.credits}
 
-Github Repository:  [![Github Repository](${data.githubrepo})
+Github Repository:  (${data.githubrepo})
 
-Project URL: [![Application URL](${data.url})
+Project URL: (${data.url})
 
 
 

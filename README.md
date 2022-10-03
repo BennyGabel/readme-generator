@@ -21,9 +21,9 @@ nodei index.js
 
 Author: Benny Gabel
 
-Github Repository:  [![Github Repository](https://github.com/BennyGabel/readme-generator)
+Github Repository:  (https://github.com/BennyGabel/readme-generator)
 
-Project URL: [![Application URL](https://github.com/BennyGabel/readme-generator.git)
+Project URL: (https://github.com/BennyGabel/readme-generator)
 
 
 
