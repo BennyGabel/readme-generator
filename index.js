@@ -44,7 +44,7 @@ const questions = [{
                     {
                         type: 'input',
                         name: 'email',
-                        message: 'Author \'s email'
+                        message: 'Author\'s email'
                     },
 
                     {

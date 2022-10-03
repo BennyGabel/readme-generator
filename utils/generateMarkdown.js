@@ -89,7 +89,8 @@ Project URL: (${data.url})
 ## Notes: 
 ${data.notes}
 
-## License  ${renderLicenseBadge(data.license)}
+## License  
+${renderLicenseBadge(data.license)}
 Link ${renderLicenseLink(data.license)}
 
 #### License description

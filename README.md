@@ -13,10 +13,10 @@
 - [License](#license)
 
 ## Installation
-1) Pre-requisits: Download Node JS. 2) install inquirer: npm install --save inquirer
+1. Pre-requisits: Download Node JS. <br /> 2. install inquirer: npm install --save inquirer
 
 ## Usage
-node index.js
+index.js
 
 ![](/assets/screenshot/screenshot.jpg?raw=true)
 
@@ -29,14 +29,15 @@ bennygabel@gmail.com
 
 ## Github
 
-Github Repository:  (https://github.com/BennyGabel)
+Github Repository:  (https://github.com/BennyGabel/readme-generator)
 
-Project URL: (https://github.com/BennyGabel)
+Project URL: (https://github.com/BennyGabel/readme-generator)
 
 ## Notes: 
-(run it from 'feature/additions' branch)
+(last update **feature/additions** branch, had problems with creating/updating *main* branch)
 
-## License  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## License  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 Link https://choosealicense.com/licenses/mit/
 
 #### License description
