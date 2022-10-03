@@ -71,8 +71,11 @@ ${data.usage}
 ![](${data.usagePicture}?raw=true)
 
 ## Credits
+
 Author: ${data.credits}
+
 Github Repository:  [![Github Repository](${data.githubrepo})
+
 Project URL: [![Application URL](${data.url})
 
 

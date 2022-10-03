@@ -10,7 +10,7 @@
 - [License](#license)
 
 ## Installation
-1) Pre-requisits: Download Node JS. 2) Install inquirer: npm install --save inquirer
+Pre-requisits: Download Node JS. In Addition, install inquirer: npm install --save inquirer
 
 ## Usage
 nodei index.js
@@ -18,12 +18,9 @@ nodei index.js
 ![](/assets/screenshot/screenshot.jpg?raw=true)
 
 ## Credits
-
 Author: Benny Gabel
-
 Github Repository:  [![Github Repository](https://github.com/BennyGabel/readme-generator)
-
-Project URL: [![Application URL](https://github.com/BennyGabel/readme-generator.git)
+Project URL: [![Application URL]()
 
 
 
