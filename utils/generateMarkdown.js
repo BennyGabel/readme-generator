@@ -60,6 +60,9 @@ function generateMarkdown(data) {
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
+- [Email](#email)
+- [Github](#github)
+- [Notes](#notes)
 - [License](#license)
 
 ## Installation
@@ -70,14 +73,24 @@ ${data.usage}
 
 ![](${data.usagePicture}?raw=true)
 
-
-![](/assets/screenshot/screenshot.jpg?raw=true)
-
 ## Credits
-${data.credits}
 
+Author: ${data.credits}
 
-## License  ${renderLicenseBadge(data.license)}
+## Email: 
+${data.email}
+
+## Github
+
+Github Repository:  (${data.githubrepo})
+
+Project URL: (${data.url})
+
+## Notes: 
+${data.notes}
+
+## License  
+${renderLicenseBadge(data.license)}
 Link ${renderLicenseLink(data.license)}
 
 #### License description

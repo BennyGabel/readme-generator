@@ -39,15 +39,36 @@ const questions = [{
                     {
                         type: 'input',
                         name: 'credits',
-                        message: 'Credits'
+                        message: 'Credits/Author Name'
+                    },
+                    {
+                        type: 'input',
+                        name: 'email',
+                        message: 'Author\'s email'
+                    },
+
+                    {
+                        type: 'input',
+                        name: 'githubrepo',
+                        message: 'Github Repo'
+                    },
+                    {
+                        type: 'input',
+                        name: 'url',
+                        message: 'URL'
+                    },
+                    {
+                        type: 'input',
+                        name: 'notes',
+                        message: 'Author additional notes'
                     },
                     {
                         type: 'list',
                         name: 'license',
                         message: 'What license does your project have?',
-                        choices: ['None', 'Apache License 2.0', 'GNU AGPLv3', 'MIT License', 'jMozilla Public License 2.0']
+                        choices: ['None', 'Apache License 2.0', 'GNU AGPLv3', 'MIT License', 'Mozilla Public License 2.0']
                     }
-                   ];
+                ];
 
 function init() {
     /* .then(data=>{console.log("***",data) */
