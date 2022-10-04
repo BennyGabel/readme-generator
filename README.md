@@ -1,7 +1,7 @@
 # readme-generator
 
 ## Description
-  Generates a README.md markup-file
+  Generates a README.md markup file
   
 ## Table of Contents
 - [Installation](#installation)
@@ -13,10 +13,10 @@
 - [License](#license)
 
 ## Installation
-1. Pre-requisits: Download Node JS. <br /> 2. install inquirer: npm install --save inquirer
+1. Pre requisits, having pre-download Node JS 2) npm i, to update the depndencies - download node_modules directory
 
 ## Usage
-index.js
+node index.js
 
 ![](/assets/screenshot/screenshot.jpg?raw=true)
 
@@ -31,10 +31,10 @@ bennygabel@gmail.com
 
 Github Repository:  (https://github.com/BennyGabel/readme-generator)
 
-Project URL: (https://github.com/BennyGabel/readme-generator)
+Project URL: ()
 
 ## Notes: 
-(last update **feature/additions** branch, had problems with creating/updating *main* branch)
+Project is compiled in the **deploy** branch 
 
 ## License  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
